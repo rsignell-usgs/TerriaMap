@@ -89,6 +89,8 @@ terria.start({
         //var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
         var allBaseMaps = globalBaseMaps;
         selectBaseMap(terria, allBaseMaps, 'Positron (Light)', false);
+        selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
+
 
         // Show a modal disclaimer before user can do anything else.
         if (defined(terria.configParameters.globalDisclaimer)) {
